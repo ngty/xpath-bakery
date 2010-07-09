@@ -1,9 +1,11 @@
 require 'rubygems'
 require 'padrino'
 
-class XPathMaker < Padrino::Application
-  register Padrino::Mailer
-  register Padrino::Helpers
+class XPathBaker < Padrino::Application
+
+  # NOTE: Probably don't need these !!
+  # register Padrino::Mailer
+  # register Padrino::Helpers
 
   ##
   # Application configuration options

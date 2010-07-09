@@ -22,4 +22,4 @@
 #
 
 # Mounts the core application for this project
-Padrino.mount("XPathMaker").to('/')
+Padrino.mount("XPathBaker").to('/')

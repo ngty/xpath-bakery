@@ -6,10 +6,10 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'spec'
 
-XPathMaker.set(:environment, :test)
+XPathBaker.set(:environment, :test)
 
 World do
-  Capybara.app = XPathMaker
+  Capybara.app = XPathBaker
   include Capybara
   include Spec::Expectations
   include Spec::Matchers
