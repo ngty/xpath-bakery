@@ -1,4 +1,4 @@
-XpathMaker.controllers :default do
+XPathMaker.controllers :default do
 
   get :index, :map => '/' do
     render 'default/index'
