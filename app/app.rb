@@ -1,4 +1,7 @@
-class XpathMaker < Padrino::Application
+require 'rubygems'
+require 'padrino'
+
+class XPathMaker < Padrino::Application
   register Padrino::Mailer
   register Padrino::Helpers
 
